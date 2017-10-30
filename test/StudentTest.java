@@ -129,6 +129,7 @@ public class StudentTest {
             }
             if (curr.equals(source))
                 good &= dist.equals(distance.get(u));
+
         }
         return good;
     }
